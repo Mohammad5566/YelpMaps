@@ -7,6 +7,7 @@ shaded by the predicted rating of the closest restaurant (yellow is 5 stars, blu
 ## Example
 
 The following command visualizes all sandwich restaurants and their predicted ratings for the user who `likes_expensive` restaurants:
+
 `python3 recommend.py -u likes_expensive -k 2 -p -q Sandwiches`
 
 <img align="center" src="visualize/example.PNG">
